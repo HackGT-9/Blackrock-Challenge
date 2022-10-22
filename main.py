@@ -16,11 +16,12 @@ st.sidebar.markdown("Navigate to the page you want to visit")
 page = st.sidebar.selectbox("Select a page", ["Home", "Private Sector", "Public/Government Sector"])
 
 
-
 # this would be much faster rather than caching the entire page.
 def main():
     if page == "Home":
         st.write("Welcome to the Volatility Explained! This is a website that aims to explain the basics of financial literacy to the average person. We hope you enjoy your stay!")
+        
+        
     elif page == "Private Sector":
         st.title("Private Sector")
         st.write("Private sector is generally the businesses and the companies. They  play the moving joint of an economy, like investors and people like you!")
