@@ -3,8 +3,6 @@ import streamlit as st
 import pandas as pd
 import pandas as pd 
 import plotly_express as px
-import matplotlib.pyplot as plt
-from sklearn import preprocessing
 from plotly.subplots import make_subplots
 import plotly.graph_objects as go
 
@@ -60,7 +58,6 @@ def main():
         fig.update_layout( title="Federal Funds Rate vs S&P 500 <br>Source: FRED",  xaxis_title="Date", yaxis_title="Value", font=dict(family="Courier New, monospace", size=18, color="#7f7f7f"),)    
         st.plotly_chart(fig)
         
-    
-        
+
 if __name__ == "__main__":
     main()
