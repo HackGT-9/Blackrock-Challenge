@@ -35,7 +35,7 @@ def main():
         st.header("How do we know whether the market is volatile or not?")
         
         st.write("Several ways of measurement are used to determine the volatility of the market.Generally speaking, we can use certain charts that are presented below to determine the volatility of the market. A very common index that's used is VIX, which is further defined in 'Private Sector' page.Beware that it's quite common in the finance field to represent things with charts and graphs, and charts could be used to deceive you. Here's an example chart from the Federal Bank of St.Louis Dataset:")
-        st.markdown("![image](https://fred.stlouisfed.org/graph/fredgraph.png?g=Vau5)")
+        st.image('https://fred.stlouisfed.org/graph/fredgraph.png?g=Vau5', width=800)
         
         st.write("The black line does not provide proper information, does it? It is almost as if the interest rates that are presented by the Federal Reserve has _no effect_ on S&P 500 performance.However, take a look at this chart, which presents the same data with different scaling:")
         
